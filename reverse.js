@@ -12,3 +12,7 @@ function reverseWords(sentence) {
 
   return reversedSentence;
 }
+
+const inputSentence = "This is a sunny day";
+const reversed = reverseWords(inputSentence);
+console.log(reversed)
